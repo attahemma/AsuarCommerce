@@ -1,0 +1,40 @@
+.container{
+    width: 96% !important;
+}
+.action{
+    width: 20%;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .action{
+        width: 20%;
+    }
+ }
+
+/********* Medium devices (tablets, 768px and up) ********/
+@media (min-width: 768px) {
+    .action{
+        width: 20%;
+    }
+ }
+
+/********* Large devices (desktops, 992px and up) ********/
+@media (min-width: 992px) {
+    .container{
+        width: 90% !important;
+    }
+    .action{
+        width: 20%;
+    }
+ }
+
+/********* Extra large devices (large desktops, 1200px and up) ********/
+@media (min-width: 1200px) {
+    .container{
+        width: 90% !important;
+    }
+    .action{
+        width: 20%;
+    }
+ }
